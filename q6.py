@@ -1,0 +1,6 @@
+source = input("Enter source: ")
+destination = input("Enter destination: ")
+fare = float(input("Enter fare in INR: "))
+discount_rate = int(input("Enter discount rate percentage: "))
+final_rate = fare - (fare *  discount_rate / 100)
+print("Fare from",source,'to',destination,'is',fare,'INR after applying discount rate percentage of',discount_rate,'% is ',final_rate,'INR') 

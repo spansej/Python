@@ -1,0 +1,5 @@
+a = int(input("Enter num1: "))
+b = int(input("Enter num2: "))
+print("addition: ",a+b)
+print("Square of 1st num:  ",a*a)
+print("First num raised to second num: ",a**b)
